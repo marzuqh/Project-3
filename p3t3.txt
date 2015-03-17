@@ -1,0 +1,33 @@
+We've got ANOTHER test case for you!
+
+This is basically the same as p3t2, but whereas p3t2 tested your EVAL
+function, this tests your APPLY function.
+
+Here are the files for this test:
+
+p3t3.cpp - this is the third test program.  See the comments at the
+           top of the file for how to use it 
+applyBack.in - an input file for p3t3 which will test how your apply
+           function works with a BACKWARD card and pawn info 
+applyBack.out - the solution output file for applyBack.in.  Diff your
+           output against this 
+applyStart.in - an input file which will test your apply's treatment
+           of a START card and pawn info 
+applyStart.out - the solution output file for applyStart.in
+
+To use the test, type these commands:
+
+g++ -Wall -Werror p3.cpp p3t3.cpp -o p3t3
+./p3t3 < applyBack.in > myApplyBack.out
+diff myApplyBack.out applyBack.out
+
+Look familiar?  Yep, these are exactly the "Apply" equivalents of the
+eval test cases from p3t2. 
+
+As with p3t2, p3t3.cpp is not limited to using the two input files we
+have given.  The comments at the top of the file show the format for
+the input files it uses - you may feel free to create your own apply
+test cases using this format to test your code for other specific
+cases. (Hint: if you have already made your own eval test cases, you
+only need to add some extra values to the bottom of those to make
+apply test cases).

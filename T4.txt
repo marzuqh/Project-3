@@ -1,0 +1,18 @@
+These are the files for the T4 test case:
+
+T4.board (the test case board file)
+T4.deck (the test case deck file)
+T4.out (the solution output)
+
+To run, compile your p3.cpp with p3support.cpp as you would for a
+normal test to read in all the regular arguments, and then run it like
+this:
+
+./p3 T4.board T4.deck 3 12 no > myT4.out
+diff myT4.out T4.out
+
+This is an end-to-end test case.  It covers forward, backward, swap,
+sorry, start, bump on start, slide after swap, swap to home, and a few
+others.  Yellow gets bashed, Green gets some glory.  You'll laugh,
+you'll cry -- it's so good that you won't actually mind that red
+doesn't even get to play.

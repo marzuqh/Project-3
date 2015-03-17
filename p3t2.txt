@@ -1,0 +1,22 @@
+Here are the files to use for the p3t2 test case:
+
+p3t2.cpp - this is the second test program.  See the comments at the
+           top of the file for how to use it
+evalBack.in - an input file for p3t2 which will test how your eval
+              function works with a BACKWARD card 
+evalBack.out - the solution output file for evalBack.in.  Diff your
+              output against this
+evalStart.in - an input file which will test your eval's treatment of
+              a START card
+evalStart.out - the solution output file for evalStart.in
+
+To use the test, type these commands:
+
+g++ -Wall -Werror p3.cpp p3t2.cpp -o p3t2
+./p3t2 < evalBack.in > myEvalBack.out
+diff myEvalBack.out evalBack.out
+
+p3t2.cpp is not limited to using the two input files we have given.
+The comments at the top of the file show the format for the input
+files it uses - you may feel free to create your own eval test cases
+using this format to test your code for other specific cases.

@@ -1,0 +1,9 @@
+Do this project in stages. 
+
+1. Be able to read the board. 
+2. Be able to read the deck. 
+3. Write some diagnostic code that can print out boards and decks to make sure you are reading them correctly. 
+   Test these functions with several different inputs. 
+4. Once you can read the structures in, fill in the simple movement logic using just forward/backward movements and start, on a board with no slides. 
+5. Once you have that working, add slides. 
+6. Finally, add swap and sorry.

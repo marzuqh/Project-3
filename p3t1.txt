@@ -1,0 +1,78 @@
+The first test case is ready now: a simple one that calls initGame
+with the supplied arguments, and then prints out the result.  You can
+compile it:
+
+     $ g++ -o p3t1 -Wall -Werror p3.cpp p3t1.cpp
+
+And run it:
+
+     $ ./p3t1 sample.board sample.deck 2 10 yes > p3t1.out
+
+And then check for differences:
+
+     $ diff p3t1.out p3t1.answer
+
+If you look at the result, it will look like this:
+
+--------------------------------------------------
+Sorry simulation: 10 rounds with shuffling
+
+Current Board State
+Number of squares: 60
+1 GREEN BEGIN
+2 GREEN HOMESQ
+4 GREEN END
+4 GREEN STARTSQ
+9 GREEN BEGIN
+13 GREEN END
+16 RED BEGIN
+17 RED HOMESQ
+19 RED END
+19 RED STARTSQ
+24 RED BEGIN
+28 RED END
+31 BLUE BEGIN
+32 BLUE HOMESQ
+34 BLUE END
+34 BLUE STARTSQ
+39 BLUE BEGIN
+43 BLUE END
+46 YELLOW BEGIN
+47 YELLOW HOMESQ
+49 YELLOW END
+49 YELLOW STARTSQ
+54 YELLOW BEGIN
+58 YELLOW END
+
+
+Current Deck State
+Size of deck: 10
+Next card to deal: 0
+0 START
+1 SWAP
+2 START
+3 FORWARD 10
+4 BACKWARD 4
+5 FORWARD 3
+6 FORWARD 3
+7 SORRY
+8 FORWARD 7
+9 BACKWARD 1
+
+
+2 players
+Player BLUE starts on 34 and ends on 32
+Pawn 0 is Startable
+Pawn 1 is Startable
+Pawn 2 is Startable
+Pawn 3 is Startable
+Player YELLOW starts on 49 and ends on 47
+Pawn 0 is Startable
+Pawn 1 is Startable
+Pawn 2 is Startable
+Pawn 3 is Startable
+--------------------------------------------------
+
+Feel free to make use of printGame in your own test cases.  You can
+even include it in your p3.cpp for debugging/testing but DO NOT turn
+in a version that prints board states!

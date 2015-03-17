@@ -1,0 +1,97 @@
+--STARTING GAME STATE-----------------------------
+--------------------------------------------------
+Sorry simulation: 0 rounds without shuffling
+
+Current Board State
+Number of squares: 60
+1 BLUE BEGIN
+1 occupied by BLUE 0
+2 BLUE HOMESQ
+4 BLUE END
+4 BLUE STARTSQ
+4 occupied by BLUE 1
+9 BLUE BEGIN
+13 BLUE END
+16 YELLOW BEGIN
+17 YELLOW HOMESQ
+19 YELLOW END
+19 YELLOW STARTSQ
+24 YELLOW BEGIN
+28 YELLOW END
+31 GREEN BEGIN
+32 GREEN HOMESQ
+34 GREEN END
+34 GREEN STARTSQ
+39 GREEN BEGIN
+43 GREEN END
+46 RED BEGIN
+47 RED HOMESQ
+49 RED END
+49 RED STARTSQ
+54 RED BEGIN
+58 RED END
+
+
+Current Deck State
+Size of deck: 1
+Next card to deal: 0
+0 BACKWARD 3
+
+
+1 players
+Player BLUE starts on 4 and ends on 2
+Pawn 0 is On board square 1
+Pawn 1 is On board square 4
+Pawn 2 is Startable
+Pawn 3 is Startable
+--------------------------------------------------
+Player BLUE draws BACKWARD 3
+--APPLY MESSAGES----------------------------------
+BLUE pawn 0 moves from square 1 to square 58.
+--ENDING GAME STATE-------------------------------
+--------------------------------------------------
+Sorry simulation: 0 rounds without shuffling
+
+Current Board State
+Number of squares: 60
+1 BLUE BEGIN
+2 BLUE HOMESQ
+4 BLUE END
+4 BLUE STARTSQ
+4 occupied by BLUE 1
+9 BLUE BEGIN
+13 BLUE END
+16 YELLOW BEGIN
+17 YELLOW HOMESQ
+19 YELLOW END
+19 YELLOW STARTSQ
+24 YELLOW BEGIN
+28 YELLOW END
+31 GREEN BEGIN
+32 GREEN HOMESQ
+34 GREEN END
+34 GREEN STARTSQ
+39 GREEN BEGIN
+43 GREEN END
+46 RED BEGIN
+47 RED HOMESQ
+49 RED END
+49 RED STARTSQ
+54 RED BEGIN
+58 RED END
+58 occupied by BLUE 0
+
+
+Current Deck State
+Size of deck: 1
+Next card to deal: 1
+0 BACKWARD 3
+
+
+1 players
+Player BLUE starts on 4 and ends on 2
+Pawn 0 is On board square 58
+Pawn 1 is On board square 4
+Pawn 2 is Startable
+Pawn 3 is Startable
+--------------------------------------------------

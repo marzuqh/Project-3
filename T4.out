@@ -1,0 +1,91 @@
+Round 1
+Player BLUE draws START.
+BLUE pawn 0 starts at square 1.
+Player YELLOW draws FORWARD 3.
+Player YELLOW cannot move.
+Player GREEN draws FORWARD 5.
+Player GREEN cannot move.
+Round 2
+Player BLUE draws BACKWARD 4.
+BLUE pawn 0 moves from square 1 to square 17.
+Player YELLOW draws START.
+YELLOW pawn 0 starts at square 6.
+Player GREEN draws FORWARD 1.
+Player GREEN cannot move.
+Round 3
+Player BLUE draws FORWARD 15.
+Player BLUE cannot move.
+Player YELLOW draws BACKWARD 2.
+YELLOW pawn 0 moves from square 6 to square 4.
+Player GREEN draws SORRY.
+GREEN pawn 0 bumps YELLOW pawn 0.
+Round 4
+Player BLUE draws SWAP.
+BLUE pawn 0 swaps with GREEN pawn 0.
+Player YELLOW draws START.
+YELLOW pawn 0 starts at square 6.
+Player GREEN draws FORWARD 3.
+GREEN pawn 0 moves from square 17 to square 0.
+Round 5
+Player BLUE draws FORWARD 5.
+BLUE pawn 0 moves from square 4 to square 9.
+Player YELLOW draws BACKWARD 4.
+YELLOW pawn 0 moves from square 6 to square 2.
+Player GREEN draws START.
+GREEN pawn 1 starts at square 11.
+Round 6
+Player BLUE draws FORWARD 1.
+BLUE pawn 0 moves from square 9 to square 10.
+Player YELLOW draws FORWARD 15.
+Player YELLOW cannot move.
+Player GREEN draws BACKWARD 2.
+GREEN pawn 1 moves from square 11 to square 9.
+Round 7
+Player BLUE draws SORRY.
+BLUE pawn 1 bumps GREEN pawn 1.
+Player YELLOW draws SWAP.
+YELLOW pawn 0 swaps with GREEN pawn 0.
+GREEN pawn slides from square 2 to square 4.
+Player GREEN draws START.
+GREEN pawn 1 starts at square 11.
+Round 8
+Player BLUE draws FORWARD 3.
+BLUE pawn 1 moves from square 9 to square 12.
+BLUE pawn slides from square 12 to square 14.
+Player YELLOW draws FORWARD 5.
+Player YELLOW cannot move.
+Player GREEN draws BACKWARD 4.
+GREEN pawn 1 moves from square 11 to square 7.
+Round 9
+Player BLUE draws START.
+BLUE pawn 2 starts at square 1.
+Player YELLOW draws FORWARD 1.
+YELLOW pawn 0 moves from square 0 to square 1.
+YELLOW pawn 0 bumps BLUE pawn 2.
+Player GREEN draws FORWARD 15.
+Player GREEN cannot move.
+Round 10
+Player BLUE draws BACKWARD 2.
+BLUE pawn 0 moves from square 10 to square 8.
+Player YELLOW draws SORRY.
+YELLOW pawn 1 bumps BLUE pawn 1.
+Player GREEN draws SWAP.
+GREEN pawn 0 swaps with BLUE pawn 0.
+GREEN pawn 0 has reached home.
+Round 11
+Player BLUE draws START.
+BLUE pawn 1 starts at square 1.
+BLUE pawn 1 bumps YELLOW pawn 0.
+Player YELLOW draws FORWARD 3.
+YELLOW pawn 1 moves from square 14 to square 17.
+Player GREEN draws FORWARD 5.
+Player GREEN cannot move.
+Round 12
+Player BLUE draws BACKWARD 4.
+BLUE pawn 1 moves from square 1 to square 17.
+BLUE pawn 1 bumps YELLOW pawn 1.
+Player YELLOW draws START.
+YELLOW pawn 0 starts at square 6.
+Player GREEN draws FORWARD 1.
+GREEN pawn 1 moves from square 7 to square 8.
+GREEN pawn 1 has reached home.
